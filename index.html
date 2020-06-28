@@ -1,10 +1,11 @@
 <html>
-
 <head>
+    <meta charset="UTF-8">
     <title>Santé</title>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/my.css">
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -16,31 +17,44 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="js/my.js"></script>
 </head>
 
+
 <body>
+   
+    <!-- Navigation Block -->
+    <header>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/sante.jpg" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+        <div class="container-fluid">
+          <a class="navbar-brand js-scroll-trigger" href="index.html">
+            <h2></h2>
+           <img src="img/sante.jpg" height="100" width="100">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-
-    <!-- Page Content -->
-    <div class="container">
-        <h1 class="mt-4">Logo Nav by Start Bootstrap</h1>
-        <p>The logo in the navbar is now a default Bootstrap feature in Bootstrap 4! Make sure to set the width and
-            height of the logo within the HTML or with CSS. For best results, use an SVG image as your logo.</p>
-    </div>
-    <!-- /.container -->
-
-</body>
+      </nav>
+      </header>
+    <!-- Navigation Block END -->
+    
+    
+    
+    </body>
+    
+    
+    
 
 </html>
